@@ -1,9 +1,177 @@
+/*Css global*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
 }
 
-.topo {
+.container {
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.destaque {
+   font-weight: 700; 
+   font-style: italic;
+}
+
+h3{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+/*css banner + logo com nome e slogan */
+.banner-topo {
+    background-image: url(../img/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-nome-logo{
+    max-width: 250px;
+    color: #3c184e;
+}
+
+
+.container-nome-logo img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.container-nome-logo, .nome-pet-shop {
+    font-size: 35px;
+    margin-bottom: 0 0 5px 0;
+}
+
+.container-nome-logo, .slogan-pet-shop {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+
+.container-titulo {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+
+}
+
+.titulo-topo{
+    font-size: 60px;
+    color: #3c184e;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+}
+
+.link-fale-conosco {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #3c184e;
+    font-size: 20px;
+    text-align: center;
+}
+.link-fale-conosco a {
+    color: #fff;
+}
+.container-titulo img {
+    width: 20px;
+}
+
+/* Seção serviços*/
+.box-servicos {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: #3c184e;
+  
+}
+.box-servicos ul li {
+    list-style: square;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.box-servicos-img {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.box-servicos-img img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/*Estilização das faixas*/
+
+.faixa {
+    background: #3c184e;
     
+}
+
+.faixa p {
+    max-width: 800px;
+    margin: 0 auto 50px auto ;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.faixa a {
+    margin: 0 20px;
+}
+
+.faixa img {
+    width: 50px;;
+    height: 50px;
+}
+
+/*Seção de marcas*/
+
+.container-marcas {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container-marcas img {
+    width: 148px;   
+    height: 148px;
+    margin: 0 15px;
+}
+
+/*Seção do mapa iframe*/
+
+.onde-estamos p{
+    font-size: 20px;
+    color: #3c184e;
+.
+    margin: 0 0 45px 0;
+}
+
+.onde-estamos iframe {
+    width: 800px;
+    height: 450px;
+}
+
+/*rodapé */
+.rodape {
+    width: 100%;
+    padding: 10px 0;
+    background: #3c184e;
+    
+}
+
+.text-rodape {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
 }
